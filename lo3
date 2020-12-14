@@ -6,5 +6,5 @@
   tasks:
     - name: dat ip cho loopback
       ios_l3_interface:
-       name: loopback 2
+       name: loopback 3
        ipv4: 3.3.3.3/32
