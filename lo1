@@ -1,0 +1,10 @@
+---
+- name: tao loopback
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: dat ip cho loopback
+      ios_l3_interface:
+       name: loopback 1
+       ipv4: 1.1.1.1/32
